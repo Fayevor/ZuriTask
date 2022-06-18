@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*style{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 375px){
+}
+main .column{
+    width: 50%;
+   background-color:black ;
+}
+
+
+
+main.column{
+
+    float: right;
+    
+    width: 50%;
+   display: flex;
+   padding: 40px 260px 40px 260px;
+   margin-top: 40px;
+   margin-top: 40px;
+
+ 
+ 
+
+}
+
+body{
+    color: white;
+   
+}
+
+h2{
+    font-family: 'Big Shoulders Display';
+    padding-top: 40px;
+}
+
+p{
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+
+}
+.button{
+    width: 160px;
+    height: 40px;
+    border-radius: 24px;
+    border-style: none;
+}
+
+.Sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 16px 16px 16px 16px;
+    width: 50% ;
+    height: 440px;
+    
+}
+
+.Sedan p{
+    padding-bottom: 64px;
+    line-height: 24px;
+}
+.Sedan h2{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.Sedan .button{
+    color: hsl(31, 77%, 52%);
+    font-weight: 600;
+}
+
+
+.Suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 16px 16px 16px 16px;
+    width: 50%;
+    height: 440px;
+
+    }
+
+    .Suv p{
+        padding-bottom: 64px;
+        line-height: 24px;
+    }
+    .Suv h2{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .Suv .button{
+        color: hsl(184, 100%, 22%);
+        font-weight: 600;
+    }
+
+    .Luxury{
+        background-color: hsl(179, 100%, 13%);
+        padding: 16px 16px 16px 16px;
+        width: 50%;
+        height: 440px;
+        } 
+
+        .Luxury p{
+            line-height: 24px;
+            padding-bottom: 64px;
+        }
+        .Luxury h2{
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+
+        .Luxury .button{
+            color: hsl(179, 100%, 13%);
+            font-weight: 600;
+        }

@@ -1,0 +1,47 @@
+*style{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    background-color: black;   
+}
+main{
+    display: grid;
+    gap: 8px;
+    grid-template-areas: 
+    'a a a b'
+    'a a a b'
+    'c c d d'
+    'c c e e';
+    width: 50%;
+    margin: 40px;
+
+}
+
+.itemA{
+   background-color: hsl(0, 72%, 53%);
+   grid-area: a;
+    height: 104px;
+}
+
+.itemB{
+    background-color: hsl(43, 83%, 51%);
+     grid-area: b;    
+ }
+
+ .itemC{
+    background-color: hsl(144, 40%, 35%);
+     grid-area: c;
+     height: 232Px;
+ }
+
+ .itemD{
+    background-color: hsl(199, 96%, 56%);
+     grid-area: d;
+ }
+
+ .itemE{
+    background-color: hsl(199, 96%, 56%);
+     grid-area: e;
+ }
